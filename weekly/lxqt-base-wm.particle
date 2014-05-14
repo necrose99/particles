@@ -4,20 +4,22 @@
 # Comma separated, example: app-foo/bar, bar-baz/foo
 # Mandatory, cannot be empty
 packages:
-    lxqt-base/lxqt-qtplugin,
+	  lxqt-base/libqtxdg,
+	  lxqt-base/lxqt-qtplugin,
 	  lxqt-base/lxqt-openssh-askpass,
-    lxqt-base/lxqt-notificationd,
-    lxqt-base/lxqt-runner,
-		lxqt-base/lxqt-policykit,
-		lxqt-base/lxqt-powermanagement,
+	  lxqt-base/lxqt-notificationd,
+	  lxqt-base/lxqt-runner,
+	  lxqt-base/lxqt-policykit,
+	  lxqt-base/lxqt-powermanagement,
 	  lxqt-base/lxqt-about,
 	  lxqt-base/lxqt-config,
 	  lxqt-base/lxqt-config-randr,
-    lxde-base/lxde-icon-theme,
+    	  lxde-base/lxde-icon-theme,
 	  lxqt-base/lxqt-common,
 	  lxde-base/lxmenu-data,
 	  lxqt-base/lxqt-panel,
 	  lxqt-base/lxqt-session,
+	  lxqt-base/lxqt-meta,
 
 
 # Enforce stable or unstable packages on emerge.
